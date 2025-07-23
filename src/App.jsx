@@ -13,12 +13,14 @@ function App() {
 
   return (
     <div style={{ padding: '20px' }}>
-      <h1>🎬 Netflix Clone</h1>
+      <img src="pngwing.com.png" className='logo-img' alt='Logo'/>
+      <h2> Top Rated </h2>
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '20px', }}>
         {movies.map(movie => (
           <div key={movie.id} style={{ border: '1px solid #ccc', borderRadius: '10px', padding: '10px' }}>
             <img src={movie.poster} alt={movie.title} style={{ width: '100%', borderRadius: '8px' }} />
             <h3>{movie.title}</h3>
+            <h4>{movie.rating}</h4>
             <p>{movie.description.slice(0, 100)}...</p>
           </div>
         ))}

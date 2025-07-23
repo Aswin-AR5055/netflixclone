@@ -5,3 +5,16 @@ h3 {
 p {
     color: #999;
 }
+
+h2 {
+    color: white;
+}
+
+.logo-img {
+  width: 150px;
+  height: auto;
+}
+
+h4 {
+    color: yellow;
+}
