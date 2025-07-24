@@ -36,10 +36,6 @@ Thumbs.db
 *.py[cod]
 *$py.class
 
-# Django-specific
-db.sqlite3
-*.sqlite3
-
 # Optional: Ignore migrations if not versioning them
 # **/migrations/
 # !**/migrations/__init__.py
